@@ -1,3 +1,7 @@
+NAME: GOPIKA A   
+
+REG NO: 212224100017
+
 ### study-of-basic-gates
 
 **AIM:** 
@@ -63,17 +67,37 @@ Y= A⊕B
 
 
 **PROGRAM**
-
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+```
+module sample1(a,b,yand,yor,ynot,ynor,yxor,ynand,yxnor);
+input a,b;
+output yand,yor,ynot,ynor,yxor,ynand,yxnor;
+and(yand,a,b);
+or(yor,a,b);
+not(ynot,a);
+nand(ynand,a,b);
+nor(ynor,a,b);
+xor(yxor,a,b);
+xnor(yxnor,a,b);
+endmodule
+```
+ 
  
 **Logic symbol & Truthtable**
 
+![digital 1 ](https://github.com/user-attachments/assets/cb276baf-5027-4254-ac98-b8b28d1aea80)
+
+![digital 2](https://github.com/user-attachments/assets/fd6b2196-2f2c-4e7a-9c19-5eddd181c371)
+
+
 **RTL realization Output:** 
+
+![Screenshot (29)](https://github.com/user-attachments/assets/242ac710-d77b-4a5d-a8d9-9e2785f49e2b)
+
 
 **RTL**
 
-**Result:**
+![Screenshot (28)](https://github.com/user-attachments/assets/de7af5c6-66e2-498b-aa99-3ec98ecc6940)
 
+**Result:**    
+Thus the different digital IC"s are studied and the truth table for different logic gates are verified.
 
