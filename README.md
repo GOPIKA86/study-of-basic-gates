@@ -2,7 +2,7 @@ NAME: GOPIKA A
 
 REG NO: 212224100017
 
-### study-of-basic-gates
+### study of basic gates
 
 **AIM:** 
 
